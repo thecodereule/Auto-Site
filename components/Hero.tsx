@@ -1,7 +1,12 @@
+"use client";
 import image from 'next/image';
 import CustomButton from "@/components/CustomButton";
 
 const Hero = () => {
+    const handleScroll = () => {
+    }
+
+    // @ts-ignore
     return (
         <div className={"hero"}>
             <div className={"flex-1 pt-36 padding-x"}>
@@ -15,7 +20,11 @@ const Hero = () => {
                     effortless booking process.
                 </p>
 
-                <CustomButton></CustomButton>
+                <CustomButton
+                    title = "Explore Cars"
+                    containerStyles = "bg-primary-blue text-white rounded-full mt-10"
+                    handleClick = {handleScroll}></CustomButton>
+
             </div>
         </div>
     )
