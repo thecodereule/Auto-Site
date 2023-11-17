@@ -39,11 +39,11 @@
 
 /* START: Hero styles */
 .hero {
-  @apply flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto;
+  @apply flex xl:flex-row flex-col gap-7 relative z-10 max-w-[1440px] mx-auto;
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[50px] text-[50px] font-bold xl:leading-[60px] xl:mt-8;
 }
 
 .hero__subtitle {
